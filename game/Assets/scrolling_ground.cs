@@ -25,7 +25,7 @@ public class scrolling_ground : MonoBehaviour
         }
         else
         {
-            Debug.Log(transform.position.x);
+            //Debug.Log(transform.position.x);
             transform.Translate(-groundSpeed, 0f, 0f);
         }
     }
